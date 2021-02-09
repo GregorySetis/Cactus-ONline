@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Poppins:wght@400;700;900&family=Rubik:wght@400;900&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+/*/////////////////////Header Navigation//////////////////////////////////*/
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+     --main-color: black;
+     --accent-color: rgb(123, 181, 124);
+     scroll-behavior: smooth;
+     color: var(--main-color);
+}
+body {
+     margin: auto;
+     max-width: 980px;
+}
+li{
+    list-style-type: none;
+}
+a{
+     text-decoration: none;
+}
+.other-nav{
+   display: grid;
+
+}
+.social-list{
+    display: flex; 
+     
+}
+.language-list{
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase; 
+    margin: auto;
+}
+nav {
+     display: flex;
+     justify-content: space-around;
+}
+.logo{
+     font-family: 'Pompiere', cursive;
+     font-size: 2.8rem;
+}
+.social-list-icon{
+     height: 30px;
+     width: 30px;
+}
+.menu-list{
+    display: flex;
+    flex: 0.8;
+}
+.menu{
+     color: var(--main-color);
+     font-family:'Poppins' ;
+     text-decoration-color: none;
+}
+
