@@ -1,25 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Poppins:wght@400;700;900&family=Rubik:wght@400;900&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
-/*/////////////////////Header Navigation//////////////////////////////////*/
+
 *{
     margin: 0;
     padding: 0;
 }
 :root {
-     --main-color: black;
+     --main-color:rgb(51, 51, 51);
      --accent-color: rgb(123, 181, 124);
+     --additional-color: white;
      scroll-behavior: smooth;
      color: var(--main-color);
+     font-family: 'Poppins';
 }
 body {
      margin: auto;
-     max-width: 980px;
+     max-width: 1020px;
 }
 li{
     list-style-type: none;
+    margin: auto;
 }
 a{
      text-decoration: none;
 }
+h2{
+    font-size: 5rem;
+    line-height: 1em;
+    
+    
+}
+span{
+    color: var(--accent-color);
+}
+
+/*//////////////////////////Default Selectors/////////////////////////////
+////////////////////////////Header Navigation///////////////////////////////////////////*/
 .other-nav{
    display: grid;
 
@@ -30,7 +45,7 @@ a{
 }
 .language-list{
     display: flex;
-    font-size: 1rem;
+    font-family: 'Poppins';
     text-transform: uppercase; 
     margin: auto;
 }
@@ -43,16 +58,71 @@ nav {
      font-size: 2.8rem;
 }
 .social-list-icon{
-     height: 30px;
-     width: 30px;
+     height: 20px;
+     width: 20px;
+     
+     
 }
 .menu-list{
+    flex-wrap: wrap;
     display: flex;
     flex: 0.8;
 }
-.menu{
+.menu,.goods-button{
      color: var(--main-color);
      font-family:'Poppins' ;
-     text-decoration-color: none;
+     font-size: 1.2rem;
+}
+.menu:hover{
+     color: var(--accent-color);  
+}
+.language-list-type,.social-list-type{
+     margin: auto 10px auto 10px; 
+}
+.social-list-type{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.social-list-icon2{
+    
+     height: 25px;
+     width: 25px;
+}
+.goods-button{
+    color: var(--additional-color);
+}
+.menu-button{
+     display: flex;
+     height: 50px;
+     border-radius: 10%;
+     align-items: center;
+     background-color: var(--main-color) ;    
+}
+.menu-button:hover{
+     background-color: var(--accent-color) ;
+}
+/*//////////////////////////Header Navigation/////////////////////////////
+/////////////////////////////Header INTRO//////////////////////////////////////////*/
+.intro-page{
+    padding: 5% 0 5% 5%;
+}
+.container{
+    background-size: cover;
+    background-image: url(../img/1pagebackground.jpg) ;
+}
+.intro-subtitle{
+    padding: 5% 0 5% 0;
+    color: var(--additional-color);
 }
 
+.intro-link{
+    
+     background-color: var(--main-color);
+      background-size: cover;
+      border-radius: 10%;
+      color: var(--additional-color);
+      
+}
+.intro-link:hover{
+    background-color: var(--accent-color);
+}
