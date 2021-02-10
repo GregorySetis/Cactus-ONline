@@ -50,8 +50,15 @@ span{
     margin: auto;
 }
 nav {
+     margin: auto;
+     max-width: 1020px;
+     position: fixed;
+     width: 100%;
      display: flex;
      justify-content: space-around;
+     background-color: var(--additional-color);
+
+     filter: opacity(85%);
 }
 .logo{
      font-family: 'Pompiere', cursive;
@@ -80,8 +87,22 @@ nav {
      margin: auto 10px auto 10px; 
 }
 .social-list-type{
+   
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.social-list-type1{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: var(--accent-color);
+    border-radius: 15%;
+}
+.social-list-type1:hover{
+    background-color: var(--additional-color);
 }
 .social-list-icon2{
     
@@ -104,7 +125,7 @@ nav {
 /*//////////////////////////Header Navigation/////////////////////////////
 /////////////////////////////Header INTRO//////////////////////////////////////////*/
 .intro-page{
-    padding: 5% 0 5% 5%;
+    padding: 15% 0 5% 5%;
 }
 .container{
     background-size: cover;
