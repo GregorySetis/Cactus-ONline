@@ -50,10 +50,10 @@ span{
     margin: auto;
 }
 nav {
-     margin: auto;
-     max-width: 1020px;
-     position: fixed;
      width: 100%;
+     margin: auto;
+     position: fixed;
+     max-width: 1020px;
      display: flex;
      justify-content: space-around;
      background-color: var(--additional-color);
@@ -127,7 +127,7 @@ nav {
 .intro-page{
     padding: 15% 0 5% 5%;
 }
-.container{
+.background{
     background-size: cover;
     background-image: url(../img/1pagebackground.jpg) ;
 }
@@ -146,4 +146,12 @@ nav {
 }
 .intro-link:hover{
     background-color: var(--accent-color);
+}
+.intro-button{
+    display: flex;
+     height: 50px;
+     border-radius: 10%;
+     align-items: center;
+     width: 15%;
+     background-color: var(--main-color) ;
 }
