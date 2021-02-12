@@ -35,7 +35,7 @@
                      <li><a class="menu" href="#sales">Sales</a></li>
                      <li><a class="menu" href="#collection2020">2020 Collections</a></li>
                      <li><a class="menu" href="#contact">Contact us</a></li>
-                     <li class="menu-button" ><a class="goods-button" href="">All Goods</a></li>
+                     <a class="menu-button" href=""><li class="goods-button" >All Goods</li></a>
                  </ul>
              </nav>
              <section class="intro-page">
@@ -45,7 +45,7 @@
                  <p class="intro-subtitle">
                     More than 2000 kinds of cacti...
                  </p>
-                    <div class="intro-button"><a class="intro-link" href="">Best-Selling Plants</a></div>
+                    <a class="intro-link" href=""><p class="intro-button">Best-Selling Plants</p></a>
              </section>
             
          </header> 
@@ -53,27 +53,32 @@
  <main class="container">
      
      <section class="sale-page">
-         <h3>
+         <h3 class="countdown-title">
              SALE NOW ON
          </h3>
-         <div class="clock">
-             <div class="Days">
-
-             </div>
-             <div class="Hours">
-                 
-             </div>
-             <div class="Minutes">
-                 
-             </div>
-             <div class="Seconds">
-                 
-             </div>
+     <div id="countdown" class="countdown">
+         <div class="countdown-number">
+             <span class="days countdown-time"></span>
+             <span class="countdown-text">Days</span>
          </div>
+         <div class="countdown-number">
+             <span class="hours countdown-time"></span>
+             <span class="countdown-text">Hours</span>
+         </div>
+         <div class="countdown-number">
+             <span class="minutes countdown-time"></span>
+             <span class="countdown-text">Minutes</span>
+         </div>
+         <div class="countdown-number">
+             <span class="seconds countdown-time"></span>
+             <span class="countdown-text">Seconds</span>
+         </div>
+     </div>
          <h4>Get one in a price of two!</h4>
          <div class="sale-subtitle">
              Deal Expires: 
          </div>
+         <script src="js/index.js"></script>
      </section>
      <section class="promotions-page">
          <h2>Cactus Promotions</h2>

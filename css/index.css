@@ -113,6 +113,7 @@ nav {
     color: var(--additional-color);
 }
 .menu-button{
+     margin: auto;
      display: flex;
      height: 50px;
      border-radius: 10%;
@@ -137,21 +138,41 @@ nav {
 }
 
 .intro-link{
-    
-     background-color: var(--main-color);
-      background-size: cover;
-      border-radius: 10%;
-      color: var(--additional-color);
-      
+     border-radius: 5%;
+     display: flex;
+     width:160px;
+     height: 50px;
+     background-color: var(--accent-color);
 }
 .intro-link:hover{
-    background-color: var(--accent-color);
+    background-color: var(--main-color);
 }
-.intro-button{
-    display: flex;
-     height: 50px;
-     border-radius: 10%;
-     align-items: center;
-     width: 15%;
-     background-color: var(--main-color) ;
+.intro-button{ 
+   margin: auto;
+   color: var(--additional-color);   
+}
+/*//////////////////////////Header INTRO/////////////////////////////
+/////////////////////////////main sale page//////////////////////////////////////////*/
+.sale-page {
+  
+}
+
+.countdown-title {
+  
+}
+
+.countdown {
+  
+}
+
+.countdown-number {
+  
+}
+
+.countdown-time {
+  
+}
+
+.countdown-text {
+  
 }
