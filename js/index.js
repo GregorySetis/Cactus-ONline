@@ -40,3 +40,9 @@ function initializeClock(id, endtime) {
 let deadline="March 01 2021 00:00:00 GMT+0300"; //for Ukraine
 
 initializeClock('countdown', deadline);
+
+$('.faves-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
