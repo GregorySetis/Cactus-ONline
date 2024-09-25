@@ -125,6 +125,8 @@ nav {
 }
 .goods-button{
     color: var(--additional-color);
+    padding-left: 4px;
+    padding-right: 5px;
 }
 .menu-button{
      margin: auto;
